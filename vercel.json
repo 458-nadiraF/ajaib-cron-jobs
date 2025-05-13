@@ -1,0 +1,8 @@
+{
+  "cron": [
+    {
+      "path": "/api/trigger",
+      "schedule": "55 12 * * 1-5"  // 19:55 WIB (Jakarta) on Monday to Friday
+    }
+  ]
+}
