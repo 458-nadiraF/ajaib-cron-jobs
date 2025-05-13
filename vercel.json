@@ -1,12 +1,10 @@
 {
-  "cron": [
-    {
-      "path": "/api/trigger-morning",
-      "schedule": "0 1 * * 1-5" // 08:00 WIB (Jakarta)
+  "functions": {
+    "api/trigger-morning.js": {
+      "schedule": "0 1 * * 1-5"  // 08:00 Jakarta
     },
-    {
-      "path": "/api/trigger-bersiap",
-      "schedule": "55 12 * * 1-5" // 19:55 WIB (Jakarta)
+    "api/trigger-bersiap.js": {
+      "schedule": "55 12 * * 1-5"  // 19:55 Jakarta
     }
-  ]
+  }
 }
