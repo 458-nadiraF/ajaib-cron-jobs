@@ -5,7 +5,7 @@
       "schedule": "0 1 * * 1-5" // 08:00 WIB (Jakarta)
     },
     {
-      "path": "/api/trigger-evening",
+      "path": "/api/trigger-bersiap",
       "schedule": "55 12 * * 1-5" // 19:55 WIB (Jakarta)
     }
   ]
